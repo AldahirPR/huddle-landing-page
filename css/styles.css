@@ -56,6 +56,12 @@ body{
     width: 105px;
     padding: 0.5em 2.5em;
     box-shadow: 0 0 5px 1px hsl(208, 11%, 55%);
+    transition: 500ms;
+}
+
+.try-it:hover > h1{
+    cursor: pointer;
+    color: var(--bodyActions);
 }
 
 .intro-page{
@@ -101,6 +107,12 @@ body{
     margin: 1em 0 0;
     padding: 1.5em 0;
     width: 280px;
+    transition: 500ms;
+}
+
+.get-started:hover{
+    cursor: pointer;
+    filter: brightness(1.5);
 }
 
 .mockups{
@@ -180,6 +192,11 @@ body{
     width: 400px;
 }
 
+.ready > .get-started:hover{
+    cursor: pointer;
+    filter: brightness(1.5);
+}
+
 .filter{
     filter: brightness(0) invert(1);
 }
@@ -238,6 +255,11 @@ address > ul > li > p{
     padding: 0.5em 0;
 }
 
+.info > ul > li > h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .more-info{
     position: relative;
     top: 20px;
@@ -248,6 +270,11 @@ address > ul > li > p{
     padding: 0.5em 0;
 }
 
+.more-info > ul > li > h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .social{
     position: relative;
     top: 30px;
@@ -256,6 +283,11 @@ address > ul > li > p{
 
 .social > i{
     margin: 0 0.5em;
+    transition: 500ms;
+}
+
+.social > i:hover{
+    color: hsl(322, 100%, 66%);
 }
 
 .copy{

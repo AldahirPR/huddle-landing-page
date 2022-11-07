@@ -31,7 +31,7 @@ body{
     background-size: auto;
     margin: 0 auto;
     padding: 3em 5em;
-    max-width: 1440px;
+    max-width: 100%;
     height: 95vh;
 }
 
@@ -152,3 +152,117 @@ body{
 }
 
 /*end 2nd section*/
+
+/*begin of 3rd section*/
+.ready{
+    position: relative;
+    top: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px hsl(208, 11%, 55%);
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    padding-bottom: 3em;
+
+}
+
+.ready > h1{
+    color: var(--headers);
+    font-family: var(--headersFont);
+    font-size: 30px;
+    padding: 2em 0 1em;
+}
+
+.ready > .get-started{
+    margin: 0 auto;
+    padding: 2em 0;
+    width: 400px;
+}
+
+.filter{
+    filter: brightness(0) invert(1);
+}
+
+footer {
+    color: #fff;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -85px;
+    padding: 13em 10em 3em;
+    height: 40vh;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+img, li{
+    display: inline;
+    list-style: none;
+}
+
+address, .info, .more-info, .copy{
+    color: var(--bodyActions);
+    font-family: var(--bodyActionsFont);
+    font-weight: 700;
+    font-style: normal;
+}
+
+address{
+     width: 420px;
+}
+
+address > ul > li > p{
+    display: inline-block;
+    margin: 1em 2em;
+}
+
+.location{
+    position: relative;
+    left: 21px;
+}
+
+.location-icon{
+    position: relative;
+    top: 40px;
+}
+
+.info{
+    position: relative;
+    top: 25px;
+    height: fit-content;
+}
+
+.info > ul > li > h1{
+    padding: 0.5em 0;
+}
+
+.more-info{
+    position: relative;
+    top: 20px;
+    height: fit-content;
+}
+
+.more-info > ul > li > h1{
+    padding: 0.5em 0;
+}
+
+.social{
+    position: relative;
+    top: 30px;
+    height: fit-content;
+}
+
+.social > i{
+    margin: 0 0.5em;
+}
+
+.copy{
+    position: relative;
+    left: 70px;
+    float: right;
+    font-size: 10px;
+}
+
+/*end of 3rd section*/
